@@ -1,0 +1,34 @@
+Maven Project
+    2 folders
+        - main: is used to write the main code of application
+        - test: is used to write the code for testing the application
+    Inside test folder
+        - java: our java code which we write to test our application
+        - resources: we keep properties, test data, and etc..
+        - config: we store configurations file
+        - utils: we keep utilities classes we need in the project
+
+framework - it allows you to write, re-use and maintain your code with minimal efforts
+maven - it is a build tool
+POM "page object model"
+
+User Story - Admin should be able to login to hrms application with valid credentials
+
+WebDriverManager - manages all the browsers for execution
+constants class -
+page factory -
+
+workbo0k to use for different versions
+.xlsx = XSSF
+.xls = XSSH
+
+how to get the data from excel
+- file input stream(filepath)
+- object of workbook
+- get sheet (name or index)
+- get no. of rows get
+- get number of cells
+create 2 nested for loop
+outer loop - control rows
+inner loop - control cols
+getrow(index).getcell(index).tostring();
